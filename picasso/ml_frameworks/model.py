@@ -3,7 +3,7 @@ from operator import itemgetter
 import warnings
 
 
-def get_model(model_cls_path, model_cls_name, data_dir, **kwargs):
+def create_model(model_cls_path, model_cls_name, data_dir, **kwargs):
     """Get an instance of the described model.
 
     Args:
